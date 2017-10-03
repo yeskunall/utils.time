@@ -1,18 +1,29 @@
 {
   "name": "utils.time",
-  "version": "0.0.1",
-  "description": "Micro-library that does time constants for you",
+  "version": "0.1.0",
+  "description": "⌚ Micro library that makes time calculations simpler",
   "main": "index.js",
   "scripts": {
-    "precommit": "lint-staged"
+    "precommit": "lint-staged",
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yeskunall/utils.time.git"
   },
   "keywords": [
     "time",
-    "util"
+    "util",
+    "utils"
   ],
   "author": "Kunall Banerjee <yeskunall96@gmail.com> (https://kimchi.surge.sh/)",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yeskunall/utils.time/issues"
+  },
+  "homepage": "https://github.com/yeskunall/utils.time#readme",
   "devDependencies": {
+    "ava": "^0.22.0",
     "eslint": "^4.8.0",
     "eslint-config-airbnb-base": "^12.0.1",
     "eslint-config-prettier": "^2.6.0",
@@ -27,5 +38,6 @@
       "prettier --write --config .prettierrc",
       "git add"
     ]
-  }
+  },
+  "dependencies": {}
 }
