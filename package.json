@@ -1,7 +1,7 @@
 {
   "name": "utils.time",
-  "version": "0.1.0",
-  "description": "⌚ Micro library that makes time calculations simpler",
+  "version": "0.2.0",
+  "description": "⌚ Micro library to make working with `milliseconds` easier.",
   "main": "index.js",
   "scripts": {
     "precommit": "lint-staged",
